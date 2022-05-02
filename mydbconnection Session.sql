@@ -1,0 +1,19 @@
+INSERT INTO "wangynh_db_orders" (
+    currency,
+    customer,
+    grossamount,
+    orderid,
+    quantity,
+    shipname,
+    unit
+  )
+VALUES
+  (
+    'currency:NVARCHAR(4)',
+    'customer:NVARCHAR(5000)',
+    'grossamount:DECIMAL',
+    'orderid:BIGINT',
+    quantity:INTEGER,
+    'shipname:NVARCHAR(100)',
+    'unit:NVARCHAR(4)'
+  );
